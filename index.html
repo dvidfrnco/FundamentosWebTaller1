@@ -4,39 +4,394 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Mi espacio universitario</title>
 </head>
 
 <body>
-
+    
     <header>
+        <h1>MI ESPACIO UNIVERSITARIO</h1>
+        <p>Un espacio para conocer mi proceso de formación como futuro profesional.</p>
     </header>
 
     <nav>
+        <a href="#sobre-mi">Sobre Mi</a>
+        <a href="#intereses">Intereses</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#horario">Horario</a> 
+        <a href="#contacto">Contacto</a>
     </nav>
+
 
     <main>
 
         <section id="sobre-mi">
+            
+            <br>
+
+            <h2>Sobre Mi</h2>
+
+            <p>Mi nombre es <strong>David Franco.</strong> <br>
+               Tengo 19 años de edad, nací en <time datetime="2007-08-26">Agosto del 2007.</time></p>
+
+            <h4>Estudios</h4>
+
+            <p>
+               Actualmente soy estudiante de <mark>Ingeniería de Sistemas</mark>, 
+               estoy en <em>cuarto semestre</em> <small>(2026-2)</small>  
+               en la <abbr title="Institución Universitaria Antonio José Camacho">Unicamacho</abbr>.
+            </p>   
+              
+            <p>Semestre 4/10 de Ing Sistemas</p>
+            <progress value="4" max="10">4 de 10</progress>
+
+            <figure>
+                <img src="multimedia/Unicamacho.png" alt="logo institucional" width="400">
+                <figcaption>Logo de la institución universitaria</figcaption>
+            </figure>
+
+            <aside>
+            <p>Inicialmente esperaba estudiar en <del>Univalle</del>.</p>
+            </aside>
+
+
+            <p>
+               Ahora estoy aprendiendo <abbr title="HyperText Markup Language">HTML</abbr> <sub>5</sub> 
+               en el curso de <strong>Fundamentos de Programacion Web</strong>, proximamente aprenderé 
+               CSS <sup>3</sup> y <ins>hasta el momento</ins> me ha gustado mucho lo relacionado con 
+               la carrera universitaria.
+            </p>
+
+                <pre>
+            <code>
+            <h1>Ejemplo de HTML</h1>
+            <p>Esto es un titulo y un parrafo en HTML</p>
+            </code>
+                </pre>
+
+                <p>Para guardar los cambios que hago en el codigo, presiono <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+
+                <p>Mi nivel actual en HTML:</p>
+                <meter min="0" max="10" value="3">3/10</meter>
+       
+        
         </section>
+
+
+            <br>
+        
 
         <section id="intereses">
+        
+            <h2>Intereses</h2>
+            
+            <h3>Intereses Academicos</h3>
+
+            <ul>
+                <li>Aprender nuevos lenguajes de programación</li>
+                <li>Especialización en ciberseguridad</li>
+                <li>Aprender inglés</li>
+                <li>Trabajo remoto</li>
+            </ul>
+
+            <h4>Tecnologías que quiero aprender</h4>
+            <ol>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <details>
+                <summary>¿Por qué quiero aprender estas tecnologías?</summary>
+            
+                <p>
+                    Quiero aprender Python, Java y JavaScript porque pueden ayudarme a ampliar 
+                    mis conocimientos de programación y conocer diferentes formas de desarrollar soluciones.
+                </p>
+            
+            </details>
+
+            <article>
+                <h5>Python</h5>
+            
+                <p>
+                    Python es uno de los lenguajes que quiero aprender, ya que puede utilizarse 
+                    en diferentes áreas de la programación y tecnología.
+                </p>
+            </article>
+
+            <br>
+
+            <blockquote cite="https://en.wikipedia.org/wiki/Steve_Jobs">
+                <p>Todo el mundo debería aprender a programar, porque te enseña a pensar.</p>
+            </blockquote>
+            <p>Fuente: <cite>Steve Jobs</cite></p>
+
+            <br>
+
+            <h3>Intereses Personales</h3>
+
+            <ul>
+                <li>Independencia económica</li>
+                <li>Viajar</li>
+            </ul>
+
+            <br>
+            
+            <h3>Otros intereses</h3>
+
+            <h4>Deportes</h4>
+
+            <ul>
+                <li>Gimnasio</li>
+            </ul>
+            
+
+            <h4>Musica</h4>
+
+            <p>
+                Mi artista favorito es <abbr title="Bad Bunny">Benito Antonio Martínez Ocasio</abbr>. <br>
+                Mis canciones favoritas de él son: <br>
+            </p>
+     
+            <ul>
+                <li><a target="_blank" href="https://open.spotify.com/intl-es/track/4MUrUT38U98olfnyzMBCzm?si=6a3ab05d61b24c41">KLOuFRENS</a></li>
+                <li><a target="_blank" href="https://open.spotify.com/intl-es/track/14QaXYIK3K3QPtezqxRRPN?si=08523147d2fa4672">PIToRRO DE COCO</a></li>
+                <li><a target="_blank" href="https://open.spotify.com/intl-es/track/2JPLbjOn0wPCngEot2STUS?si=621c634fda634a00">Yonaguni</a></li>
+                <li><a target="_blank" href="https://open.spotify.com/intl-es/track/4vCAzANUWDE24URV6wQ4ra?si=99e04a6268af45fa">Otra Noche en Miami</a></li>
+            </ul>
+
+            <p>Actualmente la canción que más escucho es:</p>
+
+            <!-- Enlace copiado desde Spotify (Solo para probar, no requisito del taller) -->
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2lTm559tuIvatlT1u0JYG2?utm_source=generator&si=023126e1840a410d" width="50%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <figure>
+                <img src="multimedia/Benito.png" alt="Benito Antonio Martinez Ocasio"  width="450">
+                <figcaption>Artista Bad Bunny</figcaption>
+            </figure>
+
         </section>
+        
+
+        <br>
+        
 
         <section id="multimedia">
+            <h2>Multimedia</h2>
+
+            <h3>Video: Concierto de Benito Antonio Martinez Ocasio</h3>
+            <p>Fragmento de concierto de cierre de la Residencia <em>No me quiero ir de aquí</em>: <ins>Una más</ins></p>
+            <video controls width="400">
+                <source src="multimedia/NMQIDA.mp4" type="video/mp4">
+                Su navegador no soporta video HML5
+            </video>
+
+            <br><br>
+
+            <h3>Audio: Fragmento de canción "DtMF" de Benito Antonio Martinez Ocasio</h3>
+                <audio controls>
+                    <source src="multimedia/DtMF.mp3" type="audio/mpeg">
+                    Su navegador no soporta audio HML5
+                </audio>
         </section>
+        
+
+        <br>
+        
 
         <section id="horario">
+
+            <h2>Horario Académico</h2>
+            <h3>Ing. Sistemas Grupo 4303A</h3>
+            <table>
+                <caption>Horario Academico 2026-2</caption>
+                <thead>
+                    <tr>
+                        <th>Asignatura</th>
+                        <th>Dia</th>
+                        <th>Hora</th>
+                        <th>Modalidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fundamentos Web</td>
+                        <td>Lunes</td>
+                        <td>7:00 AM</td>
+                        <td>Virtual</td>
+                    </tr>  
+                    <tr>
+                        <td>Calculo Vectorial</td>
+                        <td>Martes</td>
+                        <td>7:00 AM</td>
+                        <td>Virtual</td>
+                    </tr>
+                    <tr>
+                        <td>Programacion III</td>
+                        <td>Miercoles</td>
+                        <td>7:00 AM</td>
+                        <td>Virtual</td>
+                    </tr> 
+                    <tr>
+                        <td>Ing. Software</td>
+                        <td>Jueves</td>
+                        <td>7:00 AM</td>
+                        <td>Virtual</td>
+                    </tr> 
+                    <tr>
+                        <td>Fisica II</td>
+                        <td>Viernes</td>
+                        <td>7:00 AM</td>
+                        <td>Virtual</td>
+                    </tr> 
+                </tbody>
+
+
+            </table>
         </section>
+        
+
+        <br>
+        
 
         <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <form>
+                <fieldset>
+
+                    <legend>Información Personal</legend>
+
+                    <p>Tipo de Documento</p>
+                    <input type="radio" value="cc" id="cc" name="tipodocumento">
+                    <label for="cc">Cédula de Ciudadanía</label>
+
+                    <input type="radio" value="ti" id="ti" name="tipodocumento">
+                    <label for="ti">Tarjeta de Identidad</label>
+
+                    <br>
+
+                    <label for="numerodocumento">Número de Documento</label>
+                    <input type="number" id="numerodocumento" name="numerodocumento">
+                    
+                    <br>
+
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre"> 
+
+                    <br>
+
+                    <label for="fechanacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="fechanacimiento" name="fechanacimiento">
+
+                    <br>
+
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" name="correo">
+
+                </fieldset>  
+                
+                
+                <fieldset>
+                    <legend>Informacion Académica</legend>
+
+                    <label for="programa">Programa Académico</label>
+                    <select id="programa" name="programa">
+                        <option value>Seleccione</option>
+                        <option value="sistemas">Ingeniería de Sistemas</option>
+                        <option value="industrial">Ingeniería Industrial</option>
+                        <option value="electronica">Ingeniería Electrónica</option>
+                    </select>
+
+                    <br>
+                    
+                    <label for="semestre">Semestre Actual</label>
+                    <select name="semestre" id="semestre">
+                        <option value>Seleccione</option>
+                        <option value="1">Primero</option>
+                        <option value="2">Segundo</option>
+                        <option value="3">Tercero</option>
+                        <option value="4">Cuarto</option>
+                    </select>
+
+                    <br>
+                    
+                    
+                    <label for="lenguajes">¿Qué lenguajes de programación conoces?</label>
+                    
+                    <input type="checkbox" id="python" name="lenguajes" value="python">
+                    <label for="python">Python</label>
+
+                    <input type="checkbox" id="js" name="lenguajes" value="js">
+                    <label for="js">JavaScript</label>
+
+                    <input type="checkbox" id="java" name="lenguajes" value="java">
+                    <label for="java">Java</label>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Tu opinión</legend>
+
+                    <label for="calificacion">Califica tu Programa Académico</label>
+                    <input type="range" min="1" max="10" id="calificacion" name="calificacion">
+                    
+                    <br>
+                    
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" name="comentario"  rows="1" cols="40"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Correo</legend>
+                    <a href="mailto:davidfranco2699@gmail.com">Enviar un Correo</a>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+
         </section>
 
-    </main>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2>Definiciones</h2>
+        <dl>
+            <dt><strong>HTML</strong></dt>
+            <dd>HyperText Markup Language es un lenguaje utilizado para crear la estructura de una paginas web, que permite colocar titulos, imagenes, videos, etc.</dd>
+            <dt><strong>CSS</strong></dt>
+            <dd>Es un lenguaje utilizado para darle diseño a una pagina web, unido con el HTML, que permite modificar la apariencia visual.</dd>
+            <dt><strong>JavaScript</strong></dt>
+            <dd>Es un lenguaje de programación utilizado para hacer que una pagina web sea dinamica e interactiva.</dd>
+          </dl>
+
+          <br>
+          <hr>
+          <br> 
+
+          <h2>Recursos de aprendizaje</h2>
+
+          <a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a>
+          <a href="https://www.codecademy.com/" target="_blank">CodeAcademy</a>
+          <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+
+
+        </main> 
+
+        <br>
 
     <footer>
+        <p>Taller realizado para la asignatura Fundamentos WEB</p>
+        <address>Institución Universitaria Antonio José Camacho</address>
     </footer>
 
-</body>
 
+</body>
 </html>
